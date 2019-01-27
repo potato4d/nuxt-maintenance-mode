@@ -1,10 +1,13 @@
 {
   "scripts": {
     "dev": "nuxt test/fixture",
+    "build": "tsc",
+    "watch": "tsc --watch",
     "format": "prettier './**/*.{js,json,vue}' --write"
   },
   "devDependencies": {
     "@nuxt/vue-app": "^2.3.4",
+    "@types/consola": "^1.0.0",
     "@types/jsdom": "^12.2.1",
     "@types/node": "^10.12.18",
     "nuxt": "^2.3.4",
@@ -12,6 +15,7 @@
     "typescript": "^3.2.4"
   },
   "dependencies": {
+    "consola": "^2.3.2",
     "jsdom": "^13.2.0"
   }
 }
