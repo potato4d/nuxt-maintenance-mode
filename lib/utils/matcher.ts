@@ -1,4 +1,4 @@
-export function matchRoute(path, matcher) {
+export function matchRoute(path: string, matcher: string) {
   if (!matcher) {
     return true
   }

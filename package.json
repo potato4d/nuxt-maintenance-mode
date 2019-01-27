@@ -5,6 +5,7 @@
   },
   "devDependencies": {
     "@nuxt/vue-app": "^2.3.4",
+    "@types/jsdom": "^12.2.1",
     "@types/node": "^10.12.18",
     "nuxt": "^2.3.4",
     "prettier": "^1.16.1",
