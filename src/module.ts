@@ -1,9 +1,9 @@
 import { createMiddleware } from './middleware'
 import { toObject } from './utils/toObject'
-import { ModuleOptions } from './types/nuxt';
+import { ModuleOptions, RootToDoType } from './types/nuxt';
 import consola from 'consola'
 
-function nuxtMaintenanceMode(this: any, moduleOptions: ModuleOptions) {
+function nuxtMaintenanceMode(this: RootToDoType, moduleOptions: ModuleOptions) {
   const options = Object.assign(
     {},
     toObject(moduleOptions),

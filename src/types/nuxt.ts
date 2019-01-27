@@ -14,3 +14,12 @@ export interface ModuleOptions {
     options: NuxtOptions
   }
 }
+
+export type RawNuxtOptions = NuxtOptions & {
+  maintenance: ModuleOptions
+}
+
+export interface RootToDoType {
+  options: RawNuxtOptions
+  addServerMiddleware: (middleware: any) => void
+}
