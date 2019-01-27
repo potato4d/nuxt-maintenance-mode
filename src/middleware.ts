@@ -10,12 +10,10 @@ export function createMiddleware(options: ModuleOptions) {
     const { Nuxt } = require('nuxt')
     const nuxt = new Nuxt(options.nuxt.options)
     if (options.matcher && !matchRoute(req.path, options.matcher)) {
-      console.log('no target')
       next()
       return
     }
     if (matchRoute(req.url, options.path || '')) {
-      console.log('path', req.url)
       next()
       return
     }
