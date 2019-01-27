@@ -4,6 +4,8 @@
     "format": "prettier './**/*.{js,json,vue}' --write"
   },
   "devDependencies": {
+    "@nuxt/vue-app": "^2.3.4",
+    "@types/node": "^10.12.18",
     "nuxt": "^2.3.4",
     "prettier": "^1.16.1",
     "typescript": "^3.2.4"
