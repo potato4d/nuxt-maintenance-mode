@@ -19,20 +19,28 @@ export function createMiddleware(options: ModuleOptions) {
       next()
       return
     }
-    const origin = createOriginFromNuxtOptions(options.nuxt.options)
-    const window = (await nuxt.renderAndGetWindow(`${origin}${options.path}`)) as DOMWindow
-    const scripts = window.document.querySelectorAll('script')
-    scripts.forEach((script) => {
-      script.remove()
-    })
-    const preloads = window.document.querySelectorAll('script')
-    preloads.forEach((preload) => {
-      preload.remove()
-    })
-    res.writeHead(503, { 'Content-Type': 'text/html' })
-    res.write(window.document.querySelector('html')!.outerHTML, () => {
-      res.end()
-      return
-    })
+    try {
+      const origin = createOriginFromNuxtOptions(options.nuxt.options)
+      const window = (await nuxt.renderAndGetWindow(`${origin}${options.path}`)) as DOMWindow
+      const scripts = window.document.querySelectorAll('script')
+      scripts.forEach((script) => {
+        script.remove()
+      })
+      const preloads = window.document.querySelectorAll('script')
+      preloads.forEach((preload) => {
+        preload.remove()
+      })
+      res.writeHead(503, { 'Content-Type': 'text/html' })
+      res.write(window.document.querySelector('html')!.outerHTML, () => {
+        res.end()
+        return
+      })
+    } catch(e) {
+      res.writeHead(500, { 'Content-Type': 'text/html' })
+      res.write(`<html><body>500 Internal server errror </body></html>`, () => {
+        res.end()
+        return
+      })
+    }
   }
 }
