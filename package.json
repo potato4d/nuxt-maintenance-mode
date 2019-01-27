@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "dev": "nuxt test/fixture",
+    "format": "prettier './**/*.{js,json,vue}' --write"
+  },
+  "devDependencies": {
+    "nuxt": "^2.3.4",
+    "prettier": "^1.16.1",
+    "typescript": "^3.2.4"
+  },
+  "dependencies": {
+    "jsdom": "^13.2.0"
+  }
+}
