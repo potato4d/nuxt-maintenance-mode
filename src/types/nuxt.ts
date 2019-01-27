@@ -1,7 +1,7 @@
 export interface NuxtOptions {
   server: {
     https: boolean
-    host: string,
+    host: string
     port: string
   }
 }

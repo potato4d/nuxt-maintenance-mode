@@ -1,6 +1,6 @@
 import { matchRoute } from './utils/matcher'
 import { createOriginFromNuxtOptions } from './utils/createOrigin'
-import { ModuleOptions } from './types/nuxt';
+import { ModuleOptions } from './types/nuxt'
 import { DOMWindow } from 'jsdom'
 
 process.env.DEBUG = 'nuxt:*'
@@ -19,13 +19,15 @@ export function createMiddleware(options: ModuleOptions) {
     }
     try {
       const origin = createOriginFromNuxtOptions(options.nuxt.options)
-      const window = (await nuxt.renderAndGetWindow(`${origin}${options.path}`)) as DOMWindow
+      const window = (await nuxt.renderAndGetWindow(
+        `${origin}${options.path}`
+      )) as DOMWindow
       const scripts = window.document.querySelectorAll('script')
-      scripts.forEach((script) => {
+      scripts.forEach(script => {
         script.remove()
       })
       const preloads = window.document.querySelectorAll('script')
-      preloads.forEach((preload) => {
+      preloads.forEach(preload => {
         preload.remove()
       })
       res.writeHead(503, { 'Content-Type': 'text/html' })
@@ -33,7 +35,7 @@ export function createMiddleware(options: ModuleOptions) {
         res.end()
         return
       })
-    } catch(e) {
+    } catch (e) {
       res.writeHead(500, { 'Content-Type': 'text/html' })
       res.write(`<html><body>500 Internal server errror </body></html>`, () => {
         res.end()

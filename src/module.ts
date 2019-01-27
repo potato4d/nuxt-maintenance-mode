@@ -1,6 +1,6 @@
 import { createMiddleware } from './middleware'
 import { toObject } from './utils/toObject'
-import { ModuleOptions, RootToDoType } from './types/nuxt';
+import { ModuleOptions, RootToDoType } from './types/nuxt'
 import consola from 'consola'
 
 function nuxtMaintenanceMode(this: RootToDoType, moduleOptions: ModuleOptions) {
