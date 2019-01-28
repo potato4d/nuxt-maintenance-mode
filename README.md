@@ -1,5 +1,9 @@
 # Maintenance mode module for Nuxt.js
 
+<a href="https://patreon.com/potato4d">
+  <img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" height="50">
+</a>
+
 ## About this module
 
 ## Installation
@@ -15,9 +19,7 @@ Next, Add 'nuxt-maintenance-mode' value to modules property in nuxt.config.js
 ```js
 module.exports = {
   // ...
-  modules: [
-    'nuxt-maintenance-mode'
-  ],
+  modules: ['nuxt-maintenance-mode']
   // ...
 }
 ```

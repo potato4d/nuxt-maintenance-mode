@@ -1,6 +1,6 @@
 <template>
   <div>
-    Under maintenance.
+    This site is under maintenance.
   </div>
 </template>
 
@@ -20,8 +20,10 @@ div {
   align-items: center;
   justify-content: center;
   color: #fff;
-  font-weight: 200;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 24px;
+  font-weight: 100;
+  letter-spacing: 1;
+  font-family: 'Helvetica Neue', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', sans-serif;
 }
 </style>
