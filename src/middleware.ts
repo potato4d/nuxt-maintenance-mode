@@ -17,7 +17,7 @@ async function render(nuxt: any, options: ModuleOptions) {
   scripts.forEach(script => {
     script.remove()
   })
-  const preloads = window.document.querySelectorAll('script')
+  const preloads = window.document.querySelectorAll('link[rel="preload"]')
   preloads.forEach(preload => {
     preload.remove()
   })
