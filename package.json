@@ -1,6 +1,6 @@
 {
   "name": "nuxt-maintenance-mode",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "main": "lib/module.js",
   "repository": "https://github.com/potato4d/nuxt-maintenance-mode",
   "author": "HANATANI Takuma <mail@potato4d.me>",
