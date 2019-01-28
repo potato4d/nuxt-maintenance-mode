@@ -3,8 +3,6 @@ import { createOriginFromNuxtOptions } from './utils/createOrigin'
 import { ModuleOptions } from './types/nuxt'
 import { DOMWindow } from 'jsdom'
 
-process.env.DEBUG = 'nuxt:*'
-
 export function createMiddleware(options: ModuleOptions) {
   return async (req: any, res: any, next: () => void) => {
     const { Nuxt } = require('nuxt')
