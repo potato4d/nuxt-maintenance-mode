@@ -9,7 +9,7 @@
     "dev": "nuxt test/fixture",
     "build": "tsc",
     "watch": "tsc --watch",
-    "format": "prettier './**/*.{ts,json,vue}' --write"
+    "format": "prettier './**/*.{ts,json,vue,md}' --write"
   },
   "devDependencies": {
     "@nuxt/vue-app": "^2.3.4",
