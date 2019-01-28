@@ -3,7 +3,12 @@ import { toObject } from './utils/toObject'
 import { ModuleOptions, RootToDoType } from './types/nuxt'
 import consola from 'consola'
 
+let isLaunched: boolean
+
 function nuxtMaintenanceMode(this: RootToDoType, moduleOptions: ModuleOptions) {
+  if (isLaunched) {
+    return
+  }
   const options = Object.assign(
     {},
     toObject(moduleOptions),
@@ -17,6 +22,7 @@ function nuxtMaintenanceMode(this: RootToDoType, moduleOptions: ModuleOptions) {
   consola.info('Add maintenance mode plugin to server middleware')
   const middleware = createMiddleware(options)
   this.addServerMiddleware(middleware)
+  isLaunched = true
 }
 
 export default nuxtMaintenanceMode
