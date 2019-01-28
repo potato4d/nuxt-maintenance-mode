@@ -3,8 +3,19 @@
   "version": "0.2.0",
   "main": "lib/module.js",
   "repository": "https://github.com/potato4d/nuxt-maintenance-mode",
-  "author": "HANATANI Takuma <mail@potato4d.me>",
+  "author": {
+    "name": "HANATANI Takuma(@potato4d)",
+    "email": "mail@potato4d.me",
+    "url": "https://potato4d.me/"
+  },
   "license": "MIT",
+  "keywords": [
+    "vue",
+    "nuxt",
+    "nuxt-module",
+    "maintenance-mode",
+    "maintenance"
+  ],
   "scripts": {
     "dev": "nuxt test/fixture",
     "build": "tsc",
