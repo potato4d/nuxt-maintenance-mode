@@ -15,7 +15,7 @@ function nuxtMaintenanceMode(this: RootToDoType, moduleOptions: ModuleOptions) {
     this.options ? toObject(this.options.maintenance) : {}
   ) as ModuleOptions
   options.nuxt = this
-  if (!options.enabled) {
+  if (!options.enabled || !options.path) {
     consola.info('Skip activation of maintenance mode plugin')
     return false
   }
