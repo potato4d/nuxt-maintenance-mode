@@ -28,7 +28,7 @@
     "@types/jsdom": "12.2.2",
     "@types/node": "10.12.27",
     "nuxt": "2.4.5",
-    "prettier": "1.16.1",
+    "prettier": "1.16.4",
     "standard-version": "5.0.0",
     "typescript": "3.2.4"
   },
