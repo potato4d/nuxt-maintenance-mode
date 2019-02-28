@@ -29,7 +29,7 @@
     "@types/node": "10.12.27",
     "nuxt": "2.4.5",
     "prettier": "1.16.4",
-    "standard-version": "5.0.0",
+    "standard-version": "5.0.1",
     "typescript": "3.2.4"
   },
   "dependencies": {
