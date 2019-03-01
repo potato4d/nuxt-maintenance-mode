@@ -7350,10 +7350,10 @@ stackframe@^1.0.4:
   resolved "https://registry.yarnpkg.com/stackframe/-/stackframe-1.0.4.tgz#357b24a992f9427cba6b545d96a14ed2cbca187b"
   integrity sha512-to7oADIniaYwS3MhtCa/sQhrxidCCQiF/qp4/m5iN3ipf0Y7Xlri0f6eG29r08aL7JYl8n32AF3Q5GYBZ7K8vw==
 
-standard-version@5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/standard-version/-/standard-version-5.0.0.tgz#b4543fbf1e7e2ef70a7085150c5b0a91eb754c97"
-  integrity sha512-ODn74fVhNVxmVD65YaNour7pHmJ/7fXuINPsTha2OndLmrajBmUz2q1Ah5s7lChTzWUe78F6uinRMpiSxvZKfw==
+standard-version@5.0.1:
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/standard-version/-/standard-version-5.0.1.tgz#b2b2e858379c75b7da25fbc1cdafe8b6f36810d3"
+  integrity sha512-nlab5/C0P1Zd5k/2Zer/Y8xDnyf9kHES8Hy82aO8owJG9TJb3KbdNNOBNAgfa/ZsiDlJE9WQTGm1yN2VM1qxTg==
   dependencies:
     chalk "^2.4.1"
     conventional-changelog "^3.0.6"
@@ -7873,10 +7873,10 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-typescript@3.3.3333:
-  version "3.3.3333"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.3.3333.tgz#171b2c5af66c59e9431199117a3bcadc66fdcfd6"
-  integrity sha512-JjSKsAfuHBE/fB2oZ8NxtRTk5iGcg6hkYXMnZ3Wc+b2RSqejEqTaem11mHASMnFilHrax3sLK0GDzcJrekZYLw==
+typescript@3.2.4:
+  version "3.2.4"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.2.4.tgz#c585cb952912263d915b462726ce244ba510ef3d"
+  integrity sha512-0RNDbSdEokBeEAkgNbxJ+BLwSManFy9TeXz8uW+48j/xhEXv1ePME60olyzw2XzUqUBNAYFeJadIqAgNqIACwg==
 
 ua-parser-js@^0.7.19:
   version "0.7.19"
