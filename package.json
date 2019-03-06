@@ -26,7 +26,7 @@
     "@nuxt/vue-app": "2.4.5",
     "@types/consola": "1.0.0",
     "@types/jsdom": "12.2.3",
-    "@types/node": "10.12.29",
+    "@types/node": "10.12.30",
     "nuxt": "2.4.5",
     "prettier": "1.16.4",
     "standard-version": "5.0.1",
