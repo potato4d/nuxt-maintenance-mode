@@ -16,6 +16,15 @@
         "doc",
         "bug"
       ]
+    },
+    {
+      "login": "chrysanthos",
+      "name": "Chrysanthos",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/7782312?v=4",
+      "profile": "https://github.com/chrysanthos",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
