@@ -1,5 +1,5 @@
 # Maintenance mode module for Nuxt.js
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)
 
 [![codecov](https://codecov.io/gh/potato4d/nuxt-maintenance-mode/branch/master/graph/badge.svg)](https://codecov.io/gh/potato4d/nuxt-maintenance-mode) [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors) [![NPM version](https://img.shields.io/npm/v/nuxt-maintenance-mode.svg?style=flat)](https://npmjs.com/package/nuxt-maintenance-mode) [![NPM downloads](https://img.shields.io/npm/dm/nuxt-maintenance-mode.svg?style=flat)](https://npmjs.com/package/nuxt-maintenance-mode) [![CircleCI](https://circleci.com/gh/potato4d/nuxt-maintenance-mode/tree/master.svg?style=shield)](https://circleci.com/gh/potato4d/nuxt-maintenance-mode/tree/master)
 
@@ -99,7 +99,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
-<table><tr><td align="center"><a href="https://potato4d.me"><img src="https://avatars0.githubusercontent.com/u/6993514?v=4" width="100px;" alt="Takuma HANATANI"/><br /><sub><b>Takuma HANATANI</b></sub></a><br /><a href="https://github.com/potato4d/nuxt-maintenance-mode/commits?author=potato4d" title="Code">💻</a> <a href="#maintenance-potato4d" title="Maintenance">🚧</a> <a href="https://github.com/potato4d/nuxt-maintenance-mode/commits?author=potato4d" title="Documentation">📖</a> <a href="https://github.com/potato4d/nuxt-maintenance-mode/issues?q=author%3Apotato4d" title="Bug reports">🐛</a></td></tr></table>
+<table><tr><td align="center"><a href="https://potato4d.me"><img src="https://avatars0.githubusercontent.com/u/6993514?v=4" width="100px;" alt="Takuma HANATANI"/><br /><sub><b>Takuma HANATANI</b></sub></a><br /><a href="https://github.com/potato4d/nuxt-maintenance-mode/commits?author=potato4d" title="Code">💻</a> <a href="#maintenance-potato4d" title="Maintenance">🚧</a> <a href="https://github.com/potato4d/nuxt-maintenance-mode/commits?author=potato4d" title="Documentation">📖</a> <a href="https://github.com/potato4d/nuxt-maintenance-mode/issues?q=author%3Apotato4d" title="Bug reports">🐛</a></td><td align="center"><a href="https://github.com/chrysanthos"><img src="https://avatars0.githubusercontent.com/u/7782312?v=4" width="100px;" alt="Chrysanthos"/><br /><sub><b>Chrysanthos</b></sub></a><br /><a href="https://github.com/potato4d/nuxt-maintenance-mode/issues?q=author%3Achrysanthos" title="Bug reports">🐛</a></td></tr></table>
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
