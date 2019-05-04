@@ -974,6 +974,20 @@
     vue-template-compiler "^2.6.10"
     vuex "^3.1.0"
 
+"@nuxt/vue-app@2.6.3":
+  version "2.6.3"
+  resolved "https://registry.yarnpkg.com/@nuxt/vue-app/-/vue-app-2.6.3.tgz#5d2bdec87e95193cebc0af0d3e73e063f174e5ea"
+  integrity sha512-Lx7OWzDsoKAv5PmWJKcM0g0z50Os4uL8N27Z+hJT5fTKKt7ZPoBp84ckszQ2pr6yOqpHo9zldbljBXLR2C13mA==
+  dependencies:
+    node-fetch "^2.3.0"
+    unfetch "^4.1.0"
+    vue "^2.6.10"
+    vue-meta "^1.6.0"
+    vue-no-ssr "^1.1.1"
+    vue-router "^3.0.6"
+    vue-template-compiler "^2.6.10"
+    vuex "^3.1.0"
+
 "@nuxt/vue-renderer@2.6.2":
   version "2.6.2"
   resolved "https://registry.yarnpkg.com/@nuxt/vue-renderer/-/vue-renderer-2.6.2.tgz#5436cabf798b551e942e95fc5724036e17d32187"
@@ -8389,6 +8403,11 @@ vue-router@^3.0.5:
   version "3.0.5"
   resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-3.0.5.tgz#24636923c7f1a62da3a577cf75a058f9fa328581"
   integrity sha512-DGU+7+eeiSq/oNZ6epA/rcNkAd0m2+uugR5i4Eh4KBvclUmorvNJ6iForYjQkgvKi9GdamybaMpl85eDgxM2eQ==
+
+vue-router@^3.0.6:
+  version "3.0.6"
+  resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-3.0.6.tgz#2e4f0f9cbb0b96d0205ab2690cfe588935136ac3"
+  integrity sha512-Ox0ciFLswtSGRTHYhGvx2L44sVbTPNS+uD2kRISuo8B39Y79rOo0Kw0hzupTmiVtftQYCZl87mwldhh2L9Aquw==
 
 vue-server-renderer@^2.6.10:
   version "2.6.10"
