@@ -30,7 +30,7 @@
     "nuxt": "2.6.2",
     "prettier": "1.17.0",
     "standard-version": "6.0.1",
-    "typescript": "3.4.4"
+    "typescript": "3.4.5"
   },
   "dependencies": {
     "consola": "^2.3.2",
