@@ -29,7 +29,7 @@ export function createMiddleware(options: ModuleOptions) {
   return async (req: any, res: any, next: () => void) => {
     const { Nuxt } = require('nuxt')
     const nuxt = new Nuxt(options.nuxt.options)
-    if (options.matcher && !matchRoute(req.path, options.matcher)) {
+    if (options.matcher && !matchRoute(req.url, options.matcher)) {
       next()
       return
     }
