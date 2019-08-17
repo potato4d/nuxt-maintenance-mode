@@ -33,6 +33,10 @@ export function createMiddleware(options: ModuleOptions) {
       next()
       return
     }
+    if (!options.matcher && options.exclude && matchRoute(req.url, options.exclude)) {
+      next()
+      return
+    }
     if (matchRoute(req.url, options.path || '')) {
       next()
       return
