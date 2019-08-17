@@ -8,7 +8,8 @@ export interface NuxtOptions {
 
 export interface ModuleOptions {
   enabled?: boolean
-  matcher?: string
+  matcher?: any
+  exclude?: any
   path?: string
   nuxt: {
     options: NuxtOptions
