@@ -19,6 +19,10 @@ function nuxtMaintenanceMode(this: RootToDoType, moduleOptions: ModuleOptions) {
     consola.info('Skip activation of maintenance mode plugin')
     return false
   }
+  if (options.matcher && options.exclude) {
+    consola.warn('Both Matcher and Exclude were defined. Please remove one of them to avoid conflict.')
+    return false
+  }
   consola.info('Add maintenance mode plugin to server middleware')
   const middleware = createMiddleware(options)
   this.addServerMiddleware(middleware)
