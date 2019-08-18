@@ -1,7 +1,10 @@
 # Maintenance mode module for Nuxt.js
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)
 
-[![codecov](https://codecov.io/gh/potato4d/nuxt-maintenance-mode/branch/master/graph/badge.svg)](https://codecov.io/gh/potato4d/nuxt-maintenance-mode) [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors) [![NPM version](https://img.shields.io/npm/v/nuxt-maintenance-mode.svg?style=flat)](https://npmjs.com/package/nuxt-maintenance-mode) [![NPM downloads](https://img.shields.io/npm/dm/nuxt-maintenance-mode.svg?style=flat)](https://npmjs.com/package/nuxt-maintenance-mode) [![CircleCI](https://circleci.com/gh/potato4d/nuxt-maintenance-mode/tree/master.svg?style=shield)](https://circleci.com/gh/potato4d/nuxt-maintenance-mode/tree/master)
+[![codecov](https://codecov.io/gh/potato4d/nuxt-maintenance-mode/branch/master/graph/badge.svg)](https://codecov.io/gh/potato4d/nuxt-maintenance-mode)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)
+[![NPM version](https://img.shields.io/npm/v/nuxt-maintenance-mode.svg?style=flat)](https://npmjs.com/package/nuxt-maintenance-mode)
+[![NPM downloads](https://img.shields.io/npm/dm/nuxt-maintenance-mode.svg?style=flat)](https://npmjs.com/package/nuxt-maintenance-mode)
+[![CircleCI](https://circleci.com/gh/potato4d/nuxt-maintenance-mode/tree/master.svg?style=shield)](https://circleci.com/gh/potato4d/nuxt-maintenance-mode/tree/master)
 
 A module for displaying the view for maintenance as fallback while maintaining the path.
 
