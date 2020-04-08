@@ -28,7 +28,7 @@
     "@types/jsdom": "12.2.4",
     "@types/node": "10.14.6",
     "nuxt": "2.8.1",
-    "@types/node": "10.17.18",
+    "@types/node": "10.17.19",
     "nuxt": "2.12.2",
     "prettier": "2.0.4",
     "standard-version": "7.1.0",
