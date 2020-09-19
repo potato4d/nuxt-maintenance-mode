@@ -28,10 +28,10 @@
     "@types/jsdom": "12.2.4",
     "@types/node": "10.14.6",
     "nuxt": "2.8.1",
-    "@types/node": "10.17.28",
+    "@types/node": "10.17.35",
     "nuxt": "2.14.5",
     "prettier": "2.0.4",
-    "standard-version": "7.1.0",
+    "standard-version": "9.0.0",
     "typescript": "3.8.3"
   },
   "dependencies": {
