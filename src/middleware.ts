@@ -1,7 +1,6 @@
 import { matchRoute } from './utils/matcher'
 import { createOriginFromNuxtOptions } from './utils/createOrigin'
 import { ModuleOptions } from './types/nuxt'
-import { DOMWindow } from 'jsdom'
 
 let renderedPageCache: string
 
@@ -12,7 +11,7 @@ async function render(nuxt: any, options: ModuleOptions) {
   const origin = createOriginFromNuxtOptions(options.nuxt.options)
   const window = (await nuxt.renderAndGetWindow(
     `${origin}${options.path}`
-  )) as DOMWindow
+  )) as any
   const scripts = window.document.querySelectorAll('script')
   scripts.forEach(script => {
     script.remove()
