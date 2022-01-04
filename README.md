@@ -1,3 +1,5 @@
+**This package is no longer maintained.**
+
 # Maintenance mode module for Nuxt.js
 
 [![codecov](https://codecov.io/gh/potato4d/nuxt-maintenance-mode/branch/master/graph/badge.svg)](https://codecov.io/gh/potato4d/nuxt-maintenance-mode)
