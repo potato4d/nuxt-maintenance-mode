@@ -1430,13 +1430,13 @@
     vue-template-compiler "^2.6.12"
     vuex "^3.6.2"
 
-"@nuxt/vue-app@2.16.0":
-  version "2.16.0"
-  resolved "https://registry.yarnpkg.com/@nuxt/vue-app/-/vue-app-2.16.0.tgz#fe78bf0a88789e2ad4c9900a35f8c865e82b1021"
-  integrity sha512-WVvwq5+KcRTM9umplGi0LZrl37OuwwNH5vKBxwY1sW8ApTiCbK1He+I55hmheEDUhumCEcj4AuEtypnX6LTj9w==
+"@nuxt/vue-app@2.16.3":
+  version "2.16.3"
+  resolved "https://registry.yarnpkg.com/@nuxt/vue-app/-/vue-app-2.16.3.tgz#aee071c2da23633cde180ba663544ae97bace2f4"
+  integrity sha512-Lacweyb3K0tRcHKIYVbAkGEptnXy0aNzXVF/n0niTMqtyWQ16pp2md3Ab0vcYXZf8Ya1Yy1NB8FhPqPYjG8OtA==
   dependencies:
-    node-fetch-native "^1.0.1"
-    ufo "^1.0.1"
+    node-fetch-native "^1.0.2"
+    ufo "^1.1.1"
     unfetch "^5.0.0"
     vue "^2.7.10"
     vue-client-only "^2.1.0"
@@ -5988,10 +5988,10 @@ no-case@^3.0.3:
     lower-case "^2.0.1"
     tslib "^1.10.0"
 
-node-fetch-native@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/node-fetch-native/-/node-fetch-native-1.0.1.tgz#1dfe78f57545d07e07016b7df4c0cb9d2ff416c7"
-  integrity sha512-VzW+TAk2wE4X9maiKMlT+GsPU4OMmR1U9CrHSmd3DFLn2IcZ9VJ6M6BBugGfYUnPCLSYxXdZy17M0BEJyhUTwg==
+node-fetch-native@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/node-fetch-native/-/node-fetch-native-1.0.2.tgz#de3651399fda89a1a7c0bf6e7c4e9c239e8d0697"
+  integrity sha512-KIkvH1jl6b3O7es/0ShyCgWLcfXxlBrLBbP3rOr23WArC66IMcU4DeZEeYEOwnopYhawLTn7/y+YtmASe8DFVQ==
 
 node-fetch@^2.6.1:
   version "2.6.1"
@@ -8731,10 +8731,10 @@ ufo@^0.7.4:
   resolved "https://registry.yarnpkg.com/ufo/-/ufo-0.7.4.tgz#06e971738bea098b95056755ba006a6b73a63f97"
   integrity sha512-qFCjO4/IAaejZ6QKVBdM7FZkjhd8zQmBmE6i2bcSwBRrctPVtKXFojJa2flaqNUd7YWQoCFwd44MpOt1g94ekQ==
 
-ufo@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/ufo/-/ufo-1.0.1.tgz#64ed43b530706bda2e4892f911f568cf4cf67d29"
-  integrity sha512-boAm74ubXHY7KJQZLlXrtMz52qFvpsbOxDcZOnw/Wf+LS4Mmyu7JxmzD4tDLtUQtmZECypJ0FrCz4QIe6dvKRA==
+ufo@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/ufo/-/ufo-1.1.1.tgz#e70265e7152f3aba425bd013d150b2cdf4056d7c"
+  integrity sha512-MvlCc4GHrmZdAllBc0iUDowff36Q9Ndw/UzqmEKyrfSzokTd9ZCy1i+IIk5hrYKkjoYVQyNbrw7/F8XJ2rEwTg==
 
 uglify-js@^3.1.4:
   version "3.13.5"
