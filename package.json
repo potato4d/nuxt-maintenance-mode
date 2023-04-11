@@ -32,6 +32,6 @@
     "typescript": "5.0.4"
   },
   "dependencies": {
-    "consola": "^2.15.0"
+    "consola": "^3.0.0"
   }
 }
