@@ -2887,9 +2887,9 @@ consola@^2.10.0, consola@^2.15.0, consola@^2.15.3, consola@^2.6.0, consola@^2.9.
   integrity sha512-9vAdYbHj6x2fLKC4+oPH0kFzY/orMZyG2Aj+kNylHxKGJ/Ed4dpNyAQYwJOdqO4zdM7XpVHmyejQDcQHrnuXbw==
 
 consola@^3.0.0:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/consola/-/consola-3.0.1.tgz#d68680c3b28cc6b260f7fe771f52e04fe01ca4d4"
-  integrity sha512-08E7bC2N6gaFdzPU/qtBi4ulVvJitYnfrDdxEiwElC3jSNICbOvkcE+8N56EfIrBoxp37O9Qnn5ZZPElov83UQ==
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/consola/-/consola-3.0.2.tgz#50ab836abe9507c2c9c7f0b4b9863380a0789a32"
+  integrity sha512-o/Wau2FmZKiQgyp3c3IULgN6J5yc0lwYMnoyiZdEpdGxKGBtt2ACbkulBZ6BUsHy1HlSJqoP4YOyPIJLgRJyKQ==
 
 console-browserify@^1.1.0:
   version "1.2.0"
