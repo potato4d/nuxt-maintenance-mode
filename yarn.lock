@@ -1430,10 +1430,10 @@
     vue-template-compiler "^2.6.12"
     vuex "^3.6.2"
 
-"@nuxt/vue-app@2.17.0":
-  version "2.17.0"
-  resolved "https://registry.yarnpkg.com/@nuxt/vue-app/-/vue-app-2.17.0.tgz#a8532531886b8b4a86dd48f3cf0c79c8f8f57231"
-  integrity sha512-XdmLkuWfV/pmUmCd0x/ICq4YvipoHOlM9io8Fjbnnz2vVm3CboYGWeI7/bqp7BV4snHXSjWVekZo09VghLkyBA==
+"@nuxt/vue-app@2.17.1":
+  version "2.17.1"
+  resolved "https://registry.yarnpkg.com/@nuxt/vue-app/-/vue-app-2.17.1.tgz#3f78d017c91330d126cc6d2ef94854fa4bada7a3"
+  integrity sha512-r9+2XkK9BqAOZUplG3Yjqvrynfzn2rrWCwWTwjoUbNHSpeoR9WajyUySXjPOsBRVQdIgvl4o2it5p2OBDGsa2g==
   dependencies:
     node-fetch-native "^1.2.0"
     ufo "^1.1.2"
