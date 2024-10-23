@@ -1559,10 +1559,10 @@
   resolved "https://registry.yarnpkg.com/@types/color-name/-/color-name-1.1.1.tgz#1c1261bbeaa10a8055bbc5d8ab84b7b2afc846a0"
   integrity sha512-rr+OQyAjxze7GgWrSaJwydHStIhHq2lvY3BOC2Mj7KnzI7XK0Uw1TOOdI9lDoajEbSWLiYgoo4f1R51erQfhPQ==
 
-"@types/consola@2.2.5":
-  version "2.2.5"
-  resolved "https://registry.yarnpkg.com/@types/consola/-/consola-2.2.5.tgz#f84e2842e44aad1e038dff1abbc1c6bf2dd9e65c"
-  integrity sha512-ttF6wKgTQJfdUBK6zwg/C4kqzFyKqwg8kRdUOj+rn1T0CsrBvgwBn+ILLhfoVGiOY5/FAzLbD/Ld/tSgt7Damg==
+"@types/consola@2.2.8":
+  version "2.2.8"
+  resolved "https://registry.yarnpkg.com/@types/consola/-/consola-2.2.8.tgz#e3c918974752c9f529967ac2de248a428032c831"
+  integrity sha512-DJNcejXioZ5ahVvyppZhxezNdpB3qx03XZJxEAI53LVmx7C0sHrJy3dJh2gWOs1ZcRvj3LG3KBMaxsSwRrDV+w==
   dependencies:
     consola "*"
 

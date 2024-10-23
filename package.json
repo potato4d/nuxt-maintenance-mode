@@ -24,7 +24,7 @@
   },
   "devDependencies": {
     "@nuxt/vue-app": "2.18.1",
-    "@types/consola": "2.2.5",
+    "@types/consola": "2.2.8",
     "@types/node": "20.16.14",
     "nuxt": "2.15.8",
     "prettier": "3.3.3",
