@@ -2909,9 +2909,9 @@ connect@^3.7.0:
     utils-merge "1.0.1"
 
 consola@*, consola@^3.0.0:
-  version "3.2.3"
-  resolved "https://registry.yarnpkg.com/consola/-/consola-3.2.3.tgz#0741857aa88cfa0d6fd53f1cff0375136e98502f"
-  integrity sha512-I5qxpzLv+sJhTVEoLYNcTW+bThDCPsit0vLNKShZx6rLtpilNpmmeTPaeqJb9ZE9dV3DGaeby6Vuhrw38WjeyQ==
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/consola/-/consola-3.3.0.tgz#b89affdff331a40eac2f11ecc571eb230b7b560b"
+  integrity sha512-kxltocVQCwQNFvw40dlVRYeAkAvtYjMFZYNlOcsF5wExPpGwPxMwgx4IfDJvBRPtBpnQwItd5WkTaR0ZwT/TmQ==
 
 consola@^2.10.0, consola@^2.15.0, consola@^2.15.3, consola@^2.6.0, consola@^2.9.0:
   version "2.15.3"
