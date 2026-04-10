@@ -27,7 +27,7 @@
     "@types/consola": "2.2.8",
     "@types/node": "24.12.2",
     "nuxt": "2.15.8",
-    "prettier": "3.8.1",
+    "prettier": "3.8.2",
     "standard-version": "9.5.0",
     "typescript": "6.0.2"
   },
