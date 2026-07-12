@@ -28,7 +28,7 @@
     "@types/node": "24.13.3",
     "nuxt": "2.15.8",
     "prettier": "3.9.5",
-    "standard-version": "9.5.0",
+    "commit-and-tag-version": "9.5.0",
     "typescript": "6.0.3"
   },
   "dependencies": {
