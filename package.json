@@ -26,7 +26,7 @@
     "@nuxt/vue-app": "2.18.1",
     "@types/consola": "2.2.8",
     "@types/node": "24.13.3",
-    "nuxt": "2.15.8",
+    "nuxt": "3.21.7",
     "prettier": "3.9.6",
     "commit-and-tag-version": "9.6.0",
     "typescript": "6.0.3"
